@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SennaHN - Owner, Duckos mods - Coder, burrito and planteveous for item ideas and textures"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.1.5"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "bc333e88-c3be-41a8-a6a2-6c206d381ff2",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "af9c29ae-9020-4b3b-a98a-ba7703c6e4c6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

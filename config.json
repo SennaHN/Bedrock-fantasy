@@ -1,0 +1,41 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Bedrock Fantasy",
+	"namespace": "bf",
+	"authors": [
+		"SennaHN - Owner, Duckos mods - Coder, burrito and planteveous for item ideas and textures"
+	],
+	"targetVersion": "1.17.40",
+	"description": "Bedrock Fantasy Is a semi big fantasy Addon-on for minecraft bedrock | SennaHN - Owner, Duckos mods - Coder, burrito and planteveous for item ideas and textures (i think idk also remove this before this is released)  ",
+	"experimentalGameplay": {
+		"cavesAndCliffs": false,
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": true,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Bedrock Fantasy"
+				}
+			]
+		]
+	}
+}
